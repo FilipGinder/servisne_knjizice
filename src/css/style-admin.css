@@ -1,0 +1,195 @@
+/*ADMIN PANEL*/
+html{
+    height:100%;
+}
+.glv_div{
+	/*background-color: red;*/
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.linkovi_tabela {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.dod_nov_klijenta{
+	text-align: center;
+}
+
+.div_dod_novog_klijenta{
+	text-align: center;
+}
+#dodavanje_novog_klijenata{
+	display: none;
+}
+
+
+
+.div_dod_novog_vozila{
+    display: none;
+    text-align: center;
+}
+#klijenat_izm{
+	display: none;
+	text-align: center;
+	padding-left: 0px;
+  padding-right: 0px;
+}
+.div_vozilo_izm{
+	display: none;
+	text-align: center;
+	background-color: burlywood;
+}
+#servisi_div_okvir{
+	display: none;
+	background-color: teal;
+  padding-bottom: 10px;
+}
+#novi_servisi_div{
+	display: none;
+	text-align: center;
+}
+#vozila{
+	border: 2px solid red;
+}
+
+.div_klijent_izm {
+    background-color: antiquewhite;
+}
+.div_dod_novo_vozilo_izm{
+	background-color: aquamarine;
+}
+.novi_servis_izm{
+    background-color: silver;
+}
+#unique_key_izm{
+    color: red;
+}
+/*ADMIN PANEL*/
+
+
+
+/*GLAVNA STRANICA*/
+#nav_glv_main{
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+}
+.bg-light{
+	opacity: 0.8;
+}
+.divprogres{
+   height: 0.3rem; 
+   border-radius: 0px;
+   display: contents !important;
+}
+.progres{
+    height: 0.3rem;
+}
+
+#usluge_div{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.uslige{
+	text-align: center;
+	padding: 20px;
+}
+
+#cela_slika{
+	  background-image: url(../../slike/car-service.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+}
+.cela-sirina-boja{
+background: rgb(49,57,86);
+color: white;
+}
+
+#div_nsl{
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.padd{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.navig{
+    z-index: 50;
+}
+.nopadd{
+    padding-bottom: 0px !important;
+}
+
+#marke_vozila{
+	padding-top: 70px;
+	text-align: center;
+}
+#mapa{
+	padding-top: 70px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	/*text-align: center;*/
+}
+.marke{
+	margin: auto;
+}
+.inline{
+    display: inline-block;
+}
+
+
+#zatvori_sk{
+    display: none;
+}
+#zatvori_sk1{
+     display: none;
+}
+
+/*GLAVNA STRANICA*/
+
+
+
+/*SERVISNA KNJIZICA*/
+body{
+    height: 100%;
+}
+#servisna_knjizica_div{
+display: none;
+padding-top: 80px;
+padding-bottom: 80px;
+height: 100%;
+}
+.mid{
+    text-align: center;
+}
+#ime_div{
+
+}
+#vozila_klijenta{
+    text-align: center;
+}
+
+/*SERVISNA KNJIZICA*/
+
+/*telefon*/
+@media only screen and (max-width: 600px) {
+
+.input2{
+width: 100%;
+}
+#prva_slika{
+    height: 200px;
+}
+
+}
+
