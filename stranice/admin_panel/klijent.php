@@ -47,7 +47,7 @@
 						<input type="text" class="input2" id="godiste_izm">
 
 						<br>
-						<span>Početna kubikaža</span>
+						<span>Kubikaža</span>
 						<br>
 						<input type="text" class="input2" id="kubikaza_izm">
 

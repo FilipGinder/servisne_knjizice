@@ -103,8 +103,6 @@ function dod_nov_vozila(){
      $id_klijenta = $_POST['id_klijenta'];
 
      $opis_servisa = $_POST['opis_servisa'];
-     
-
 
      include ('../konekcija/konekcija.php');
      $upit="INSERT INTO vozila(id_klijenta,naziv,godiste,kubikaza,boja,kilometraza,vrsta_goriva) VALUES($id_klijenta,'$naziv_vozila','$godiste_vozila','$kubikaza_vozila','$boja_vozila','$kilometraza_vozila','$gorivo')";
@@ -330,6 +328,8 @@ function izm_podataka_ili_dodavanje_nov_servisa(){
 
      
      if($servis_opis_nov != ""){
+
+
       include ('../konekcija/konekcija.php');
       $upit1="INSERT INTO servisi(id_vozila,kilometraza,opis) VALUES($id_vozila,$kilometraza_izm_nova,'$servis_opis_nov')";
       $rezultat1 = $konekcija->prepare($upit1);

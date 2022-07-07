@@ -43,11 +43,11 @@
 
 
 				<div class="col-6 col-sm-6 col-md-4 col-lg-3 uslige" id=""> <img src="slike/ulje.jpg" class="d-block w-100"  id="" width="144px" height="144px" alt="Error"><h5>ZAMENA ULJA I FILTERA</h5></div>
-<!-- 
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3 uslige" id=""> <img src="slike/glavna.png" class="d-block w-100"  id="" width="144px" height="144px" alt="Error"><h5>Motor</h5></div>
 
-				<div class="col-6 col-sm-6 col-md-4 col-lg-3 uslige" id=""> <img src="slike/glavna.png" class="d-block w-100"  id="" width="144px" height="144px" alt="Error"><h5>Motor</h5></div>
-
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 uslige" id=""> <img src="slike/alnaser.jpg" class="d-block w-100"  id="" width="144px" height="144px" alt="Error"><h5>SERVIS I ZAMENA ALNASERA</h5></div>
+ 
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 uslige" id=""> <img src="slike/alternator.jpg" class="d-block w-100"  id="" width="144px" height="144px" alt="Error"><h5>SERVIS I ZAMENA ALTERNATORA</h5></div>
+<!--
 				<div class="col-6 col-sm-6 col-md-4 col-lg-3 uslige" id=""> <img src="slike/glavna.png" class="d-block w-100"  id="" width="144px" height="144px" alt="Error"><h5>Motor</h5></div> -->
 
 

@@ -43,7 +43,7 @@
                           
                     <input class="form-control me-2 btn-lg pretrazi" type="search" placeholder="Servisne knjižice - unesite Vaš kod" aria-label="Search" id="pretrazi_knjizice"> &nbsp; &nbsp;
                     
-                      
+                      <br>
 
                      <button class="btn btn-danger btn-lg " type="button"  id="pretrazi_butt">Pronadji</button>&nbsp;&nbsp;&nbsp;
 

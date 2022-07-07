@@ -187,6 +187,7 @@ $("#sacuvaj_novo_vozilo").click(function(){
 			var id_klijenta = $("#sacuvaj_novo_vozilo").val();
 
             var opis_servisa = $("#opis_servisa").val();
+            var opis_servisa = opis_servisa.replaceAll('w','<br>');
 
 		if(naziv_vozila != "" || godiste_vozila != "" || kilometraza_vozila != "" || gorivo != ""){
 
@@ -425,6 +426,8 @@ window.izmena_klijenta_vozila_dod_servisa = function(){
         
         var kilometraza_izm_nova = $("#kilometraza_izm_nova").val();
         var servis_opis_nov = $("#nov_opis_servisa_izm").val();
+        var servis_opis_nov = servis_opis_nov.replaceAll('w','<br>');
+
 
 
         var verifikacija_izm_podataka_ili_dodavanje_nov_servisa = "verifikacija_izm_podataka_ili_dodavanje_nov_servisa";
