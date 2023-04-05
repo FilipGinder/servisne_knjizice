@@ -56,7 +56,7 @@
 						<br>
 						<input type="text" class="input2" id="boja_izm">
 						<br>
-						<span>Kilometraža</span>
+						<span>Početna kilometraža</span>
 						<br>
 						<input type="text" class="input2" id="kilometraza_izm">
 						<br>
@@ -107,9 +107,10 @@
                      <br>
                      <br>
 			       <textarea class="input2" placeholder="Opis servisa" autofocus id="nov_opis_servisa_izm"></textarea>
-			       <br>
+			       <br><br>
 			       
-			       <input type="button" class="btn btn-danger" id="dod_novog_servisa_izm" value="Dodaj - Sačuvaj">
+			       <input type="button" class="btn btn-danger" id="dod_novog_servisa_izm" value="Dodaj - Sačuvaj"><br><br>
+			       <input type="button" class="btn btn-primary" id="nazad_klijent_upd1" value="Nazad">
             </div>
 
 
@@ -132,7 +133,7 @@
 						<input type="text" class="input2" id="kubikaza_vozila_izm">
 
 						<br>
-						<span>Kilometraža</span>
+						<span>Početna kilometraža</span>
 						<br>
 						<input type="text" class="input2" id="kilometraza_vozila_izm">
 
@@ -152,8 +153,8 @@
                                     
                                </select>
                         </div>
-                        <input type="button" class="btn btn-primary input2" id="dod_novog_vozila_izm" value="Dodaj novo vozilo">
-                        <br>
+                        <input type="button" class="btn btn-danger input2" id="dod_novog_vozila_izm" value="Dodaj novo vozilo"><br><br>
+                        <input type="button" class="btn btn-primary input2" id="nazad_klijent_upd" value="Nazad">
                         <br>
 			</div>
 

@@ -100,8 +100,7 @@ $("#dod_nov_klijenta").click(function(){
 	$("#dodavanje_novog_klijenata").css("display","block");
 })
 
-$("#nazad_novi_klijent").click(function(){
-
+$("#nazad_novi_klijent, #nazad_novi_klijent1").click(function(){
 	$("#tabela_klijenata").css("display","block");
 	$("#dodavanje_novog_klijenata").css("display","none");
 })
@@ -319,7 +318,7 @@ $("#vozila").change( window.odabir_vozila_refresh = function(){
    var vozilo = $("#vozila").val();
 
    if(vozilo == "odaberi_vozilo"){
-    $("#dod_novog_vozila_izm").css("display","block");
+    $("#dod_novog_vozila_izm").css("visibility", "visible");
     
     $(".div_vozilo_izm").css("display","none");
     $("#servisi_div_okvir").css("display","none");
@@ -327,7 +326,7 @@ $("#vozila").change( window.odabir_vozila_refresh = function(){
     $(".div_dod_novo_vozilo_izm").css("display","block");
     
    }else{
-    $("#dod_novog_vozila_izm").css("display","none");
+    $("#dod_novog_vozila_izm").css("visibility", "hidden");
 
       $(".div_vozilo_izm").css("display","block");
       $("#servisi_div_okvir").css("display","block");
@@ -409,6 +408,14 @@ $("#vozila").change( window.odabir_vozila_refresh = function(){
 
 window.izmena_klijenta_vozila_dod_servisa = function(){
 
+
+    $("#nazad_klijent_upd, #nazad_klijent_upd1").click(function(){
+    $("#tabela_klijenata").css("display","block");
+    $("#klijenat_izm").css("display","none");
+})
+
+
+
     $("#dod_novog_servisa_izm").click(function(){
         var id_klijenta = $("#odavran_klijent_izm").val();
         var ime_klijenta_izm = $("#ime_klijenta_izm").val();
@@ -426,7 +433,7 @@ window.izmena_klijenta_vozila_dod_servisa = function(){
         
         var kilometraza_izm_nova = $("#kilometraza_izm_nova").val();
         var servis_opis_nov = $("#nov_opis_servisa_izm").val();
-        var servis_opis_nov = servis_opis_nov.replaceAll('w','<br>');
+        var servis_opis_nov = servis_opis_nov.replaceAll('q','<br>');
 
 
 

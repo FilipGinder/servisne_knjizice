@@ -74,6 +74,9 @@
 						<textarea class="input11" placeholder="Opis servisa" autofocus id="opis_servisa"></textarea>
 						<br>
 			            <button type="button" class="btn btn-danger" id="sacuvaj_novo_vozilo">Sačuvaj</button>
+
+			            <input type="button" class="btn btn-primary" id="nazad_novi_klijent1" value="Nazad">
+			            
 			</div>
 
 

@@ -53,10 +53,12 @@ html{
 	display: none;
 	background-color: teal;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 #novi_servisi_div{
 	display: none;
 	text-align: center;
+	padding-bottom: 30px;
 }
 #vozila{
 	border: 2px solid red;
@@ -67,6 +69,7 @@ html{
 }
 .div_dod_novo_vozilo_izm{
 	background-color: aquamarine;
+	padding-bottom: 30px;
 }
 .novi_servis_izm{
     background-color: silver;
@@ -74,6 +77,12 @@ html{
 #unique_key_izm{
     color: red;
 }
+#gorivo_izm,#vozila,#gorivo_vozila_izm{
+	width: 189px !important;
+    margin: auto;
+}
+
+
 /*ADMIN PANEL*/
 
 
@@ -182,12 +191,25 @@ height: 100%;
 #vozila_klijenta{
     text-align: center;
 }
+#dod_novog_vozila_izm,#nazad_klijent_upd,#dod_novog_servisa_izm,#nazad_klijent_upd1{
+width: 189px;
+}
+#dod_novog_vozila_izm{
+margin: auto;
+}
 
 /*SERVISNA KNJIZICA*/
 
 /*telefon*/
 @media only screen and (max-width: 600px) {
 
+#dod_novog_vozila_izm,#nazad_klijent_upd,#dod_novog_servisa_izm,#nazad_klijent_upd1{
+width: 100% !important;
+}
+
+#gorivo_izm,#vozila,#gorivo_vozila_izm{
+	width: 100% !important;
+}
 .input2{
 width: 100%;
 }

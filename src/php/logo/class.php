@@ -68,25 +68,25 @@ function logovanje()
 
                     }
 
-                    else if ($brojac==1 && base64_encode($password) == $lozinka_iz_baze){ 
-                      if(!empty($zapamti_me))   //AKO NIJE PRAZNA PRAVIMO KOLACICE
-                           {   
+                                else if ($brojac==1 && base64_encode($password) == $lozinka_iz_baze){ 
+                                  if(!empty($zapamti_me))   //AKO NIJE PRAZNA PRAVIMO KOLACICE
+                                       {   
 
-                                               $passwordhash = base64_encode($password);
-                                               setcookie("Un", $email, time() + (86400 * 300), "/");
-                                               setcookie("pass", $passwordhash, time() + (86400 * 300), "/");  //FORMIRANI KOLACICI ZA EMAIL I PASSWORD KOJI TRAJU MESECDANA. BRAUZER IH PAMTI
-                                               $_SESSION['id']=$id;
-                                               exit(json_encode('uspesno'));
+                                                           $passwordhash = base64_encode($password);
+                                                           setcookie("Un", $email, time() + (86400 * 300), "/");
+                                                           setcookie("pass", $passwordhash, time() + (86400 * 300), "/");  //FORMIRANI KOLACICI ZA EMAIL I PASSWORD KOJI TRAJU MESECDANA. BRAUZER IH PAMTI
+                                                           $_SESSION['id']=$id;
+                                                           exit(json_encode('uspesno'));
 
-                            }
-                        else{  
+                                        }
+                                    else{  
 
-                                           $_SESSION['id']=$id;
-                                           exit(json_encode('uspesno'));
+                                                       $_SESSION['id']=$id;
+                                                       exit(json_encode('uspesno'));
 
 
-                    }
-                  }
+                                }
+                              }
                     else if ($brojac==0){
                         exit(json_encode('Nismo pronasli vas EMAIL!'));
                       }

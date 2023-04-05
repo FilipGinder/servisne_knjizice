@@ -63,7 +63,8 @@ $("#pretrazi_butt").click(function(){
                                                 for(var i=0; i<data.length;i++){ 
                                                    if(i==0){
                                                      var prvo_vozilo = data[i][0];
-                                                   }                                             
+                                                   }   
+                                                                                            
                                                     rezultat+="<option value='"+data[i][0]+"'>"+data[i][1]+"</option>";
                                                  }
                                                  $("#vozila_klijenta").html(rezultat).trigger("chosen:updated"); 

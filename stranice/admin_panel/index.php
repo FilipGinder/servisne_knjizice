@@ -102,6 +102,7 @@
 
 			<div class="col-lg-12 col-md-12 col-sm-12 dod_nov_klijenta">
                 <input type="button" class="btn btn-danger" id="dod_nov_klijenta" value="Dodaj novog klijenta">
+                <br><br>
 			</div>
 
 		</div>
